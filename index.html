@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>محكمة الأشياء التي لم تحدث</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Readex+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <h1>محكمة الأشياء التي لم تحدث</h1>
+  <p class="tag">لكل مستقبل لم يحدث… قضية لم تُغلق بعد.</p>
+  <div class="ask">
+    <input id="q" type="text" maxlength="90" placeholder="ماذا لو لم يخترع أحد الإنترنت؟" autocomplete="off">
+    <button id="open">افتح القضية</button>
+  </div>
+  <div class="ideas" id="ideas"></div>
+</header>
+
+<main id="court" hidden>
+  <nav id="timeline" aria-label="نسخ القضية"></nav>
+  <section id="case"></section>
+</main>
+
+<div class="watermark" aria-hidden="true">dev.Eng._.Salem.M</div>
+
+<script src="app.js"></script>
+</body>
+</html>
